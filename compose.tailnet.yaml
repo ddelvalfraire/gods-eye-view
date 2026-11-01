@@ -6,7 +6,7 @@ services:
       GEV_ALLOWED_HOSTS: ${GEV_ALLOWED_HOSTS}
       GEV_KEY_SETUP_TRUSTED_PEERS: none
     ports:
-      - '127.0.0.1:3811:4173'
+      - '127.0.0.1:13811:4173'
     volumes:
       - /data/coolify/gods-eye-view/cache:/app/.gev-cache
       - /data/coolify/gods-eye-view/logs:/app/.gev-logs
